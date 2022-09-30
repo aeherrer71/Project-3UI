@@ -1,6 +1,8 @@
 .title {
-  width: 100%;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: 43%;
+  width: 20%;
 }
 
 .gallery {
@@ -8,34 +10,36 @@
   flex-direction: row;
   flex-wrap: nowrap;
   padding: 0;
-  transition: all 500ms ease;
-  border: solid;
+
 }
 
 
 .digimon-container {
   overflow: hidden;
-  position: relative;
   width: 560px;
   margin: 0 auto;
-  border: solid;
-  height: 400px;
+  height: 350px;
 
 }
 
 .character {
-  list-style: none;
   height: 500px;
-  min-width: 560px;
-  background-position: center center;
-  background-size: cover;
-} 
-
-.button {
-background: orange;
-justify-content: space-between;
+  min-width: 600px;
 }
 
-/* .right {
-justify-content: right;
-} */
+.button {
+  background-color: transparent;
+  border: none
+}
+
+.right {
+
+  position: absolute;
+  margin-left: 480px;
+  height: 39%;
+}
+
+.left {
+  position: absolute;
+  height: 39%;
+}
